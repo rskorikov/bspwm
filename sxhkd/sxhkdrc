@@ -30,6 +30,10 @@ super + b
 super + e
 	thunar
 
+# change random wallpaper with feh
+super + shift + w
+	feh -z --bg-fill ~/wallpaper
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
